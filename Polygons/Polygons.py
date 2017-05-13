@@ -11,7 +11,8 @@ import math
 def main(argv):
 
     print ("")
-    print ("This program can calculate the number Pi using the polygons method. To know more abaut this, please visit https://github.com/xoancosmed/Calculate-Pi.")
+    print ("This program can calculate the number Pi using the polygons method.")
+    print ("To know more abaut this, please visit https://github.com/xoancosmed/Calculate-Pi.")
     print ("")
     n = int(input("Enter the number of sides: ")) # Number of sides of the polygons (set by the user)
 
@@ -31,7 +32,7 @@ def main(argv):
 
     print ("\nRESULT")
     print ("N = " + str(n))
-    print ("π = " + str(pi) + " ± " + str(error))
+    print ("π = " + '{0:.16f}'.format(pi) + " ± " + str(error))
     print ("")
 
 if __name__ == "__main__":

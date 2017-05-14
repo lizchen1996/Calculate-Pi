@@ -16,24 +16,32 @@ def main(argv):
     print ("To know more abaut this, please visit https://github.com/xoancosmed/Calculate-Pi.")
     print ("")
     n = int(input("Enter the number of points: ")) # Number of points to generate randomly
+    t = int(input("Enter how many times to repeat: ")) # Number of times to repeat the process
 
-    random.seed() # Init the seed with the actual time
     r = 1 # Radius of the circumference
-    c = 0 # Count of points inside the circumference
+    pis = [] # List of values of Pi in each round
 
-    for i in range(n):
+    for i in range(t):
 
-        x = random.uniform(-r,r)
-        y = random.uniform(-r,r)
-        m = (x*x) + (y*y)
+        c = 0 # Count of points inside the circumference in this round
+        random.seed() # Init the seed with the actual time
 
-        if m < (r*r):
-            c += 1
+        for j in range(n):
 
-    pi = 4.0*float(c)/float(n)
+            x = random.uniform(-r,r) # Random value for the abscissa (x axis)
+            y = random.uniform(-r,r) # Random value for ordinates (y axis)
+            m = math.sqrt((x*x) + (y*y)) # Module (distance from the coordinate center)
+
+            if m < r:
+                c += 1 # If m < r, this means that is inside the circumference, so we count it
+
+        pis.append(4.0*float(c)/float(n)) # When the round is finished, we calculate the Pi
+
+    pi = sum(pis) / float(len(pis)) # Calculate the average of pi obtained
 
     print ("\nRESULT")
     print ("N = " + str(n))
+    print ("T = " + str(t))
     print ("π = " + '{0:.16f}'.format(pi))
     print ("")
 

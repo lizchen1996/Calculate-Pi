@@ -34,6 +34,8 @@ def main(argv):
     print ("N = " + str(n))
     print ("π = " + '{0:.16f}'.format(pi) + " ± " + str(error))
     print ("")
+    print ("Reference value: " + str(math.pi))
+    print ("")
 
 if __name__ == "__main__":
     main(sys.argv)

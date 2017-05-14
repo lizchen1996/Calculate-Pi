@@ -44,6 +44,8 @@ def main(argv):
     print ("T = " + str(t))
     print ("π = " + '{0:.16f}'.format(pi))
     print ("")
+    print ("Reference value: " + str(math.pi))
+    print ("")
 
 if __name__ == "__main__":
     main(sys.argv)

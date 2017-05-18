@@ -2,3 +2,15 @@
 ## Method of the polygons
 
 This is my favourite method, because is very easy to understand and can give you a range where the real value of Pi is.
+
+This method is based on the fact that a circle is a regular polygon with infinite sides. So, to get an aproximate value of Pi we only have to calculate Pi with a polygon with a lot of sides.
+
+// Here: image of a polygon inside a circle
+
+But how we get the value of Pi of a regular Polygon? This is very easy. We know that the perimeter of the circle is `2·r·pi`. So, to calculate Pi we only have to know the radius of the circle (whitch we will fix) and the permiter of the polygon (which is the `L·N`, where _N_ is the number of sides and _L_ is the length of each side).
+
+// Here: image of an example
+
+And how can we calculate the length of the sides of a regular polygon? To do so we have to go one by one duplicating the number of sides. That is because we have to use the theorem of Pitagoras to get the value of each side. To understand better this, please see the following example, where we start with a square, the basic polygon in this problem.
+
+// Continue ...

@@ -1,0 +1,1 @@
+## Method of the polygons ##

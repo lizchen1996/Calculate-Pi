@@ -5,7 +5,8 @@ This is my favourite method, because is very easy to understand and can give you
 
 This method is based on the fact that a circle is a regular polygon with infinite sides. So, to get an aproximate value of Pi we only have to calculate Pi with a polygon with a lot of sides.
 
-// Here: image of a polygon inside a circle
+<!--![Polygon inside a circle. A circle is a regular polygon with infinite sides](https://github.com/xoancosmed/Calculate-Pi/blob/readme/Polygons/images/polygon_circle.png)-->
+<div><center><img src="https://github.com/xoancosmed/Calculate-Pi/blob/readme/Polygons/images/polygon_circle.png" alt="Polygon inside a circle. A circle is a regular polygon with infinite sides" width="250" style="display: block; margin: auto;"/></center></div>
 
 But how we get the value of Pi of a regular Polygon? This is very easy. We know that the perimeter of the circle is `2·r·pi`. So, to calculate Pi we only have to know the radius of the circle (whitch we will fix) and the permiter of the polygon (which is the `L·N`, where _N_ is the number of sides and _L_ is the length of each side).
 

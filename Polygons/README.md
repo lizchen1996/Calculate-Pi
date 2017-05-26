@@ -10,8 +10,9 @@ This method is based on the fact that a circle is a regular polygon with infinit
 
 But how we get the value of Pi of a regular Polygon? This is very easy. We know that the perimeter of the circle is `2·r·pi`. So, to calculate Pi we only have to know the radius of the circle (whitch we will fix) and the permiter of the polygon (which is the `L·N`, where _N_ is the number of sides and _L_ is the length of each side).
 
-// Here: image of an example
+<!--![Example of how to calculate Pi from a polygon](https://github.com/xoancosmed/Calculate-Pi/blob/readme/Polygons/images/circulo_cuadrado_calcular_pi.png)-->
+<div><center><img src="https://github.com/xoancosmed/Calculate-Pi/blob/readme/Polygons/images/circulo_cuadrado_calcular_pi.png" alt="Example of how to calculate Pi from a polygon" height="250" style="display: block; margin: auto;"/></center></div>
 
-And how can we calculate the length of the sides of a regular polygon? To do so we have to go one by one duplicating the number of sides. That is because we have to use the theorem of Pitagoras to get the value of each side. To understand better this, please see the following example, where we start with a square, the basic polygon in this problem.
+And how can we calculate the length of the sides of a regular polygon? To do so we have to go one by one duplicating the number of sides. That is because we have to use the theorem of Pitagoras to get the value of each side. To understand better this, please see the following example, where we start with a square, the basic polygon in this problem, and then we follow with a polygon with 8 sides.
 
 // Continue ...

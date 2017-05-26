@@ -15,4 +15,7 @@ But how we get the value of Pi of a regular Polygon? This is very easy. We know 
 
 And how can we calculate the length of the sides of a regular polygon? To do so we have to go one by one duplicating the number of sides. That is because we have to use the theorem of Pitagoras to get the value of each side. To understand better this, please see the following example, where we start with a square, the basic polygon in this problem, and then we follow with a polygon with 8 sides. And which circle are we going to use? The simplest way is to use one circle with D=1, so the perimiter of the circle is equals to Pi ('P = 2·r·pi => P = D·pi' so if D=1, 'P = pi').
 
+<!--![Step 1: Calculate the Pi from a square using the Pitagoras theorem](https://github.com/xoancosmed/Calculate-Pi/blob/readme/Polygons/images/paso_1_calcular_pi.png)-->
+<div><center><img src="https://github.com/xoancosmed/Calculate-Pi/blob/readme/Polygons/images/paso_1_calcular_pi.png" alt="Step 1: Calculate the Pi from a square using the Pitagoras theorem" height="250" style="display: block; margin: auto;"/></center></div>
+
 // Continue ...
